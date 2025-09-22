@@ -1,0 +1,105 @@
+.title {
+    font-family: "Fontdiner Swanky", serif;
+    font-size: 13em;
+    text-align: center;
+    line-height: 1;
+    margin: 10% 5% -2%;
+    color: #ffecb8;
+}
+
+.subtitle {
+    font-family: "Fontdiner Swanky", serif;
+    justify-content: center;
+    text-align: center;
+    color:  #ffecb8;
+    font-size: 2em;
+    margin-bottom: 10%;
+
+}
+
+.reddit-tag {
+    text-align: center;
+    color: #FFC72C;
+}
+
+.section {
+    border: 20px groove #FFC72C;
+    /* box-sizing: border-box; */
+    padding: 30px 20px;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-size: 3em;
+    line-height: 0.2;
+    color: white;
+}
+
+body {
+    background-color: #DA291C;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px 10%;
+    flex: 2;
+}
+
+.Button {
+    border: 0;
+    background: #ffecb8;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #966e00;
+    color: #3c3c3c;
+    cursor: pointer;
+    font: inherit;
+    margin: 1%;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+    font-family: "DM Mono", monospace;
+  }
+
+.Button:active {
+    box-shadow: 0 2px 0 #966e00;
+    transform: translateY(3px);
+  }
+
+.category {
+    width: 10%;
+    height: 10%;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ingredient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.label {
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+    color: #ffecb8;
+    font-size: 3em;
+}
+
+.description {
+    font-family: "DM Mono", monospace;
+    color: #ffecb8;
+    text-align: center;
+    display: flex;
+    margin: -2% 10%;
+}
