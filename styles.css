@@ -1,0 +1,162 @@
+/* Homepage */
+.title {
+    font-family: "Dosis", sans-serif;
+    font-weight: 900;
+    font-size: 11em;
+    text-align: center;
+    line-height: 1;
+    margin: 5% -2% -2%;
+    color: hsl(47, 96%, 55%);
+}
+
+.subtitle {
+    font-family: "Dosis", sans-serif;
+    justify-content: center;
+    text-align: center;
+    color:  #fbca1f;
+    font-size: 2em;
+    margin-bottom: 5%;
+    font-weight: 200;
+    
+}
+
+body {
+    overflow: hidden;
+}
+
+.bigmac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jumpy {
+    animation: jump 2s infinite ease-in-out;
+    width: 30%;
+    height: auto;
+}
+  
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);   /* resting */
+    }
+    30%      { transform: translateY(-50px); }
+    60%      { transform: translateY(-10px); }
+  }
+
+/* marquee {
+    height: 100vh;
+} */
+
+
+/* Code credit: https://uiverse.io/adamgiebl/giant-donkey-36 */
+.quiz-button {
+    background: #fbca1f;
+    font-family: "Dosis", sans-serif;
+    padding: 0.6em 1.3em;
+    font-weight: 800;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  }
+  
+  .quiz-button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  .quiz-button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  
+
+
+
+
+/* Other sections */
+
+
+.section {
+    border: 20px groove #FFC72C;
+    /* box-sizing: border-box; */
+    padding: 30px 20px;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-size: 3em;
+    line-height: 0.2;
+    color: white;
+}
+
+body {
+    background-color: #DA291C;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px 10%;
+    flex: 2;
+}
+
+.Button {
+    border: 0;
+    background: #ffecb8;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #966e00;
+    color: #3c3c3c;
+    cursor: pointer;
+    font: inherit;
+    margin: 1%;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+    font-family: "DM Mono", monospace;
+  }
+
+.Button:active {
+    box-shadow: 0 2px 0 #966e00;
+    transform: translateY(3px);
+  }
+
+.category {
+    width: 10%;
+    height: 10%;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ingredient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.label {
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+    color: #ffecb8;
+    font-size: 3em;
+}
+
+.description {
+    font-family: "DM Mono", monospace;
+    color: #ffecb8;
+    text-align: center;
+    display: flex;
+    margin: -2% 10%;
+}

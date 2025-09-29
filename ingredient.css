@@ -1,0 +1,139 @@
+/* Ingredient Lists */
+.title {
+    font-family: "Fredoka", sans-serif;
+    font-size: 11em;
+    text-align: center;
+    line-height: 1;
+    margin: 5% -2% -2%;
+    color: hsl(47, 96%, 55%);
+}
+
+.subtitle {
+    font-family: "Fredoka", sans-serif;
+    justify-content: center;
+    text-align: center;
+    color:  #fbca1f;
+    font-size: 2em;
+    margin-bottom: 5%; 
+}
+
+.header {
+    font-family: "Dosis", sans-serif;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color:  #fbca1f;
+    font-size: 1.2em;
+    margin-bottom: -4%;
+    margin-top: 2%;
+}
+
+.ingredient-title {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 8em;
+    text-align: center;
+    line-height: 1;
+    margin: 5% -2% -2%;
+    color: hsl(47, 96%, 55%);
+}
+
+.ingredient-description {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: hsl(47, 96%, 55%);
+    text-align: center;
+    margin: 5% 5%;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.bigmac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Changing the cursor on different sides of screen */
+.left-side, .right-side {
+    display: flex;
+    flex: 1; /* each side takes up 50% of container */
+    justify-content: center;
+}
+
+.left-side:hover {
+    cursor: url('assets/plate.png') 16 16, auto;
+}
+
+.right-side:hover {
+    cursor: url('assets/trash-can.webp') 16 16, auto;
+}
+
+
+/* Code credit: https://uiverse.io/adamgiebl/giant-donkey-36 */
+.quiz-button {
+    background: #fbca1f;
+    font-family: "Dosis", sans-serif;
+    padding: 0.6em 1.3em;
+    font-weight: 800;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  }
+  
+  .quiz-button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    cursor: crosshair;
+  }
+  
+  .quiz-button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  
+
+
+/* Spotlighting the ingredient */
+.ingredient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+#patty {
+    width: 40%;
+    height: auto;
+}
+
+
+/* Footer/body */
+.section {
+    border: 20px groove #FFC72C;
+    /* box-sizing: border-box; */
+    padding: 30px 20px;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-size: 3em;
+    line-height: 0.2;
+    color: white;
+}
+
+body {
+    background-color: #DA291C;
+}
